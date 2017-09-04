@@ -9,6 +9,8 @@ package com.algorithm.learn.TestJavaConcepts;
  */
 public class RandomTest {
 	public static void main(String[] args) {
-		new BitOperation().testBitOperation();
+		BitOperation bo = new BitOperation();
+		bo.testBitValue();
+		bo.testBitOperation();
 	}
 }
