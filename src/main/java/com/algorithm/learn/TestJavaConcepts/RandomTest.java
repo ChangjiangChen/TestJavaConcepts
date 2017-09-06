@@ -9,8 +9,10 @@ package com.algorithm.learn.TestJavaConcepts;
  */
 public class RandomTest {
 	public static void main(String[] args) {
-		BitOperation bo = new BitOperation();
-		bo.testBitValue();
-		bo.testBitOperation();
+//		BitOperation bo = new BitOperation();
+//		bo.testBitValue();
+//		bo.testBitOperation();
+//		bo.testBitTransfer();
+		System.out.println(Integer.toBinaryString(-6));
 	}
 }
