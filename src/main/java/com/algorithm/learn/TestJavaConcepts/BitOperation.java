@@ -2,7 +2,8 @@ package com.algorithm.learn.TestJavaConcepts;
 
 /**
  * 位运算，java数的进制相关内容<br>
- * 位运算相关的内容在平时运用不多，但在jdk源码中使用较多，所以整理一下
+ * 位运算相关的内容在平时运用不多，但在jdk源码中使用较多，所以整理一下<br>
+ * 在源码中看到记录下来，思考下为什么要用这种方式，是否性能更好
  * 
  * @author changjiang.chen
  *
