@@ -12,5 +12,6 @@ public class RandomTest {
 		BitOperation bo = new BitOperation();
 		bo.testBitValue();
 		bo.testBitOperation();
+		bo.testBitTransfer();
 	}
 }
