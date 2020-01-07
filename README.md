@@ -1,2 +1,2 @@
 # TestJavaConcepts
-this project show how to use java key words and important concepts.
+旨在测试一些不清楚的Api用法以及实用的类似脚本的方法
