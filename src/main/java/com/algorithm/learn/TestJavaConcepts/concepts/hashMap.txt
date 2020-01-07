@@ -1,9 +1,0 @@
-hashMap
-1.允许null值与null键。
-2.不保证键值对的顺序，尤其是不保证在一定时间内它们的顺序不发生变化。
-3.假设hash分布均匀，那么get/put操作的时间消耗为常量级，遍历所需时间与其bucket的数量，以及键值对的数量呈比例，所以初始容量capacity与负载因子对遍历性能很重要。
-4.The capacity is the number of buckets in the hash table and the initial capacity is simply the capacity at the time the hash table is created.
--->hashmap与hash table之间的关系？
-5.当容量要超过负载因子时，需要进行一次rehash的操作，十分耗性能，所以初始容量的设置应该避免rehash频繁发生，但也不会闲置太多空间。负载因子实际上是一种时间与空间资源的平衡，默认0.75.
-如果有相当多的键值对需要放入一个hashmap中，那么给定一个合适的初始值会比让其自动地grow table性能高很多。
-6.不是线程安全的。如果多个线程同时去进入hashmap，而至少有一个线程对其进行修改（包括增，删键值对，不包括对已有的键的值进行更改）则需要外部对其进行同步处理（synchronized）。

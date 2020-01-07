@@ -1,0 +1,2 @@
+#* @implicitly included *#
+#* @vtlvariable name="list" type="java.util.List" file="../resources/initVelocity.vm" *#

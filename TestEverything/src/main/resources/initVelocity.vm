@@ -1,0 +1,18 @@
+#set($name1="velocity")
+#set($hello="hello $name1")
+<html>
+<title>$hello</title>
+<body>
+<H2>$hello</H2>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Hello Velocity</title>
+</head>
+<body>
+我的名字叫$name 年龄是$age;
+</body>
+</html>
