@@ -14,12 +14,12 @@ import java.util.Map;
  * @date : 2020/01/07
  * @description :
  */
-public class MzzcModuleJavaFileBuilder {
+public class MzzcModulesBuilder {
 
     public static void main(String[] args) {
         List<String> filters = new ArrayList<>();
 
-        MzzcModuleJavaFileBuilder.buildMzzcMavenModuleStructureCode("C:\\Users\\Administrator\\Desktop\\manage", null, null);
+        MzzcModulesBuilder.buildMzzcMavenModuleStructureCode("C:\\Users\\Administrator\\Desktop\\manage", null, null);
     }
 
     /**

@@ -13,7 +13,7 @@ import java.util.List;
  * @date : 2020/01/07
  * @description :
  */
-public class MzzcModuleBuilder {
+public class MzzcStructureBuilder {
 
 
     /**
